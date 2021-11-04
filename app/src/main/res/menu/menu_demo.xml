@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <item android:title="Settings"
+            android:icon="@android:drawable/ic_menu_add"
+            app:showAsAction="always"
+            android:id="@+id/menuS"
+            />
+        <item android:title="Share"
+            android:orderInCategory="1"
+              android:id="@+id/menuSH"
+            app:showAsAction="always"
+            android:tooltipText="@string/app_name"
+            />
+        <item android:title="Exit"
+            android:id="@+id/menuE"
+            android:orderInCategory="3"
+            />
+        <item android:title="Search"
+              android:id="@+id/menuSe"
+            android:orderInCategory="2"
+            />
+        <item android:title="contact"
+            android:orderInCategory="4">
+                <menu>
+                        <item android:title="1"/>
+                        <item android:title="2"/>
+                </menu>
+
+        </item>
+
+
+
+</menu>
